@@ -1,0 +1,12 @@
+$font-main: 'Poppins', sans-serif;
+
+.page {
+    font-family: $font-main;
+    font-size: 50px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-height: 600px;
+}

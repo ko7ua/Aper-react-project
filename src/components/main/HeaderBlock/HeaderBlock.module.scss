@@ -1,0 +1,66 @@
+$font-main: 'Poppins', sans-serif;
+
+.over {
+  background: #181818;
+}
+
+header {
+  font-family: $font-main;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+
+  img {
+    display: block;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .active {
+    font-size: 1.1rem;
+  }
+}
+
+.links {
+  a {
+    margin: 0 17px;
+  }
+  button {
+    max-width: 155px;
+    height: 42px;
+    background: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+
+    a {
+      color: black;
+    }
+  }
+}
+//adaptiv
+
+@media (max-width: 1250px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .links {
+      display: none;
+  }
+}
+
+

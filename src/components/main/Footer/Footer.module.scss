@@ -1,0 +1,127 @@
+$font-main: 'Poppins', sans-serif;
+
+.over {
+  background: rgb(0,0,0);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+footer {
+  font-family: $font-main;
+  color: white;
+  padding-top: 30px;
+  .footertop {
+    display: flex;
+    justify-content: space-between;
+
+      p {
+        color: #C0C0C0;
+        font-family: $font-main;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+
+      }
+  }
+  .footertopleft {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    font-family: $font-main;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding-bottom: 7px;
+  }
+  ul {
+    margin: 0;
+    padding-left: 40px;
+  }
+}
+.topli {
+  color: #C0C0C0;
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: left;
+}
+.line {
+  width: 100%;
+  border-top: 2px solid #FFFFFF;
+  margin: 36px 0;
+}
+.license {
+  font-style: normal;
+  font-family: $font-main;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #C0C0C0;
+  margin-bottom: 50px;
+}
+
+// middle section
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    position: relative;
+    width: 458px;
+    height: 52px;
+    border-radius: 9px;
+    z-index: 0;
+    cursor: pointer;
+  }
+  .butt:after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 380px;
+    width: 60px;
+    border-top: 30px solid black;
+    border-radius: 11px;
+  }
+}
+
+.midsub {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  color: #FFFFFF;
+}
+.midsubdown {
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+
+  color: #C0C0C0;
+}

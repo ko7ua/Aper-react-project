@@ -1,0 +1,42 @@
+.burgerRoot {
+    position: relative;
+    height: 20px;
+    width: 25px;
+    display: none;
+    cursor: pointer;
+    z-index: 20;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background: white;
+        top: 10px;
+    }
+
+    span {
+        display: flex;
+        align-items: center;
+        height: 1px;
+        width: 25px;
+        background: white;
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background: white;
+        top: 20px;
+    }
+}
+
+//adaptiv
+
+@media (max-width: 1010px) {
+    .burgerRoot {
+        display: block;
+    }
+  }
